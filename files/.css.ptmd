@@ -1,0 +1,5 @@
+body {
+    background-image: url(pt2_bg1.jpg);
+    background-repeat: repeat-x;
+    background-color: #020204;
+}

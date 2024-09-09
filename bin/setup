@@ -1,0 +1,12 @@
+#!/bin/bash
+# cd to dir of script
+A="$(readlink -f "$0")"
+D="$(dirname "$A")"
+cd "$D"
+
+cd ..
+mkdir -p data files log versions
+bin/fixperms
+cd php
+cp sample_localdefs.php localdefs.php
+vi localdefs.php

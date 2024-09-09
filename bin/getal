@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+a = open("highlight.min.js").read()
+import re
+langs = set()
+r = re.compile(r"aliases:\[([^\]]*)\]")
+ms = r.findall(a)
+for x in ms:
+  print(x)

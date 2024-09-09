@@ -1,0 +1,10 @@
+# About this wiki
+This is a demo version of Purple Tree 2.
+The ptmd files here are just examples for you to see.
+The syntax is basically MarkDown, but WikiWord's
+are turned into links automatically. Then
+```quotes1
+Things in fenced code blocks may be transformed
+by code in `ptmd.php` prior to being sent into
+ParseDown.
+```

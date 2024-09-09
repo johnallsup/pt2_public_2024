@@ -1,0 +1,5 @@
+Lines of the form `something=whatever` are considered config directives; other lines are ignored.
+```
+favicon=icon.png
+css=.css.ptmd
+```
